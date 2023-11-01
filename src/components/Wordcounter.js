@@ -27,7 +27,7 @@ export default function Wordcounter(props) {
       <div className="container">
         <h4>Word Count</h4>
         <p>
-          {(text==="")?0:text.split(" ").length} words and {text.length} characters
+          {(text.split(" ")).filter((element)=>{return element.length!==0}).length} Words and {text.length} Characters
         </p>
       </div>
     </>

@@ -20,6 +20,7 @@ export default function Wordcounter(props) {
             onChange={onChange}
             id="exampleFormControlTextarea1"
             rows="8"
+            style={{boxShadow:"none"}}
           ></textarea>
         </div>
  
